@@ -7,8 +7,10 @@
       "id": "/subscriptions/20ff7fc3-e762-44dd-bd96-b71116dcdc23/providers/Microsoft.Security/pricings/VirtualMachines",
       "name": "VirtualMachines",
       "type": "Microsoft.Security/pricings",
-      "properties": {
-        "pricingTier": "Standard"
+      "parameters":{
+        "properties": {
+          "pricingTier": "free"
+        }
       }
     }
   },
@@ -19,7 +21,7 @@
         "name": "VirtualMachines",
         "type": "Microsoft.Security/pricings",
         "properties": {
-          "pricingTier": "Standard"
+          "pricingTier": "free"
         }
       }
     }
